@@ -3,6 +3,7 @@ import os.path
 import shutil
 import tempfile
 import os
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 # os.environ['TF_CPP_MIN_VLOG_LEVEL'] = '4'
 import tensorflow as tf
